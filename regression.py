@@ -39,7 +39,4 @@ if __name__ == '__main__':
     y_pred = svmc.predict(X_test)
     print(classification_report(y_test, y_pred))
 
-    # precision = TP / entire positive call outs
-    # 추궁했는데 틀렸을 시 좆되면 이게 중요.
-    # recall = TP / entire Trues
-    # 놓쳐버린 애들이 깽판칠 가능성이 크면 이게 중요.
+
